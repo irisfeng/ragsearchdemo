@@ -1,0 +1,15 @@
+POST http://localhost:3000/api/rag-search
+Content-Type: application/json
+
+{
+    "query": "ollama是什么"
+}
+
+###
+
+POST http://localhost:3000/api/chat
+Content-Type: application/json
+
+{
+    "query": "吴山居是什么？"
+}

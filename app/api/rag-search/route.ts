@@ -20,5 +20,5 @@ export async function POST(req: Request) {
 
     const res = await axios(config);
 
-    return Response.json(res.data);
+    return Response.json(res.data["organic"]);
 }

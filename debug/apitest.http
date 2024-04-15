@@ -1,7 +1,0 @@
-POST http://localhost:3000/api/rag-search
-Content-Type: application/json
-
-{
-    "query": "乔布斯是谁"
-
-}
